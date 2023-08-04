@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/workspace/r_boot_demos/uart_demo/uart/uart.c
+uart.h
+/home/user/workspace/r_boot_demos/uart_demo/uart/uart.h
+errno.h
+-
+stdarg.h
+-
+fcntl.h
+-
+termios.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+ctype.h
+-
+
+/home/user/workspace/r_boot_demos/uart_demo/uart/uart.h
+signal.h
+-
+

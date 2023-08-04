@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdev_can.a  CMakeFiles/dev_can.dir/dev_can.c.o
+/usr/bin/ranlib libdev_can.a

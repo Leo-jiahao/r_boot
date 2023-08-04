@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stm32f103rc_demo_r_boot_slave_flash.h": "c",
+        "usart.h": "c",
+        "d_flash.h": "c",
+        "r_boot_slave.h": "c",
+        "r_boot_slave_config.h": "c",
+        "r_boot_slave_env.h": "c"
+    }
+}

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/can_protocol.c
+can_protocol.h
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/can_protocol.h
+utilities.h
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/utilities.h
+string.h
+-
+
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/can_protocol.h
+kpcan.h
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/kpcan.h
+
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/kpcan.h
+stdint.h
+-
+
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/utilities.c
+utilities.h
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/utilities.h
+
+/home/user/workspace/r_boot_demos/kp_can_demo/kp_can/utilities.h
+stdint.h
+-
+

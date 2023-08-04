@@ -1,0 +1,2 @@
+/usr/bin/ar qc libr_bootm.a  CMakeFiles/r_bootm.dir/r_boot_master.c.o
+/usr/bin/ranlib libr_bootm.a

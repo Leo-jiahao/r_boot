@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkp_can.a  CMakeFiles/kp_can.dir/can_protocol.c.o CMakeFiles/kp_can.dir/utilities.c.o
+/usr/bin/ranlib libkp_can.a

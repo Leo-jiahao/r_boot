@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/r_boot_master.c
+r_boot_master_config.h
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/r_boot_master_config.h
+r_boot_master.h
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/r_boot_master.h
+string.h
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/string.h
+stdlib.h
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/stdlib.h
+stdio.h
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/stdio.h
+
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/r_boot_master.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/user/workspace/r_boot_demos/kp_can_demo/r_boot/master/r_boot_master_config.h
+stdio.h
+-
+unistd.h
+-
+

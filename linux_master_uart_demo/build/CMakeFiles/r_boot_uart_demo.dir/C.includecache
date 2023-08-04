@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../r_boot/master/r_boot_master.h
+stdint.h
+-
+stdbool.h
+-
+
+../uart/uart.h
+signal.h
+-
+
+/home/user/workspace/r_boot_demos/uart_demo/main.c
+stdio.h
+-
+pthread.h
+-
+unistd.h
+-
+stdlib.h
+-
+fcntl.h
+-
+r_boot_master.h
+/home/user/workspace/r_boot_demos/uart_demo/r_boot_master.h
+stream_packer.h
+/home/user/workspace/r_boot_demos/uart_demo/stream_packer.h
+uart.h
+/home/user/workspace/r_boot_demos/uart_demo/uart.h
+
+/home/user/workspace/r_boot_demos/uart_demo/stream_packer.c
+stream_packer.h
+/home/user/workspace/r_boot_demos/uart_demo/stream_packer.h
+
+/home/user/workspace/r_boot_demos/uart_demo/stream_packer.h
+stdint.h
+/home/user/workspace/r_boot_demos/uart_demo/stdint.h
+

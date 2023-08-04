@@ -1,0 +1,9 @@
+/home/user/workspace/r_boot_demos/uart_demo/build/CMakeFiles/edit_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/CMakeFiles/rebuild_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/CMakeFiles/r_boot_uart_demo.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/r_boot/master/CMakeFiles/rebuild_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/r_boot/master/CMakeFiles/edit_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/r_boot/master/CMakeFiles/r_bootm.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/uart/CMakeFiles/edit_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/uart/CMakeFiles/rebuild_cache.dir
+/home/user/workspace/r_boot_demos/uart_demo/build/uart/CMakeFiles/uart.dir
