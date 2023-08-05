@@ -1027,7 +1027,7 @@ static bool upload(int argc, char **argv, struct _iap_callback_object *cbk_p)
     }else{
         src = envs.env_array[new_app_addr].u32_value;
     }
-
+    len = envs.env_array[app_max_size].u32_value;
     ret = r_boots_write_flash(dest,(char *)src,len);
     
     if(ret == false){
@@ -1286,25 +1286,26 @@ bool r_boot_call(const void *name, int argc, char **argv)
 /**
  * @brief 只能在用户回调函数中被调用，且只能一次
  * 
- * @param argv 回调函数argv
+ * @param extern_str 额外的字符串数据，添加到应答帧的首部
  * @param format 
  * @param ... 
  * @return int 
  */
-int r_boots_ckb_printf(char **argv, const char * format, ...)
+int r_boots_ckb_printf(char *extern_str, const char * format, ...)
 {
 #ifdef ENABLE_PROTOCOL_CALLBACK
     static char u_string[CALLBACK_PRINTF_BUFFER_SIZE];
     int ret = 0;
     int u_string_index = 0;
-    if(argv[0] == NULL ) return 0;
 
     u_string[0] = rb_entry.p_cbk_entry.call_number;
-
-    strcpy(&u_string[1], argv[0]);
-
-    u_string_index = strlen(u_string)+2;
-	u_string[u_string_index-1] = '\0';
+    if(extern_str){
+        strcpy(&u_string[1], extern_str);
+        u_string_index = strlen(u_string)+2;
+        u_string[u_string_index-1] = '\0';
+    }else{
+        u_string_index = 1;
+    }
     va_list p;
     va_start (p, format);
     ret = vsprintf (&u_string[u_string_index], format, p);

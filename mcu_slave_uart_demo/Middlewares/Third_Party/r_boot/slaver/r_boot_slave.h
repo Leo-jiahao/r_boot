@@ -128,7 +128,7 @@ bool r_boots_call(const void *name, int argc, char **argv);
 
 void r_boots_new_cbk_obj(struct _iap_callback_object *cbk_obj);
 
-int r_boots_ckb_printf(char **argv, const char * format, ...);
+int r_boots_ckb_printf(char *extern_str, const char * format, ...);
 
 void r_boots_run(const uint32_t time);
 
